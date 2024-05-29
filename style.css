@@ -5,12 +5,7 @@ body {
     padding: 0;
   }
   
-  /* Navbar styles */
-  nav {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-  }
+
   
   /* Hero Header styles */
   header {
@@ -55,6 +50,54 @@ body {
 h3 {
     text-decoration-color: aqua;
     color: #ff0000;
+/* Style the navigation bar */
+nav {
+    background-color: #eee;
+    padding: 10px;
+}
+
+/* Style the navigation links */
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Style the dropdown button */
+.dropbtn {
+    font-weight: bold;
+}
+
+/* Hide the dropdown content by default */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Show the dropdown content on hover (desktop) */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style the dropdown content links */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change the background color of the dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
 
 
 
